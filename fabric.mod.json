@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 1,
+  "id": "artmaphelper",
+  "version": "1.0.0",
+  "name": "ArtMap Helper",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["com.example.artmap.ArtMapHelper"]
+  },
+  "depends": {
+    "fabricloader": ">=0.15.0",
+    "minecraft": "1.21.1",
+    "fabric-api": "*"
+  }
+}
